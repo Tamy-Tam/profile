@@ -1,0 +1,104 @@
+body {
+  background-color: RGB(231, 233, 230);
+  font-family: 'Lora', serif;
+  color: #86988A;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-family: Roboto, sans-serif;
+  line-height: normal;
+}
+
+h1 {
+  color : #586F6B;
+  font-size: 34px;
+ }
+
+ h2 {
+  color: #424D44;/*#7F9183*/;
+  font-size: 22px;
+ }
+
+h3 {
+  color: #DBFEB8;
+  font-size: 20px;
+}
+
+a {
+  color: #364442;
+}/*
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 10px;
+*/
+
+button {
+  color: RGB(85, 113, 115);
+}
+
+.container {
+  background-color: RGB(231, 233, 230);
+  width: 700px;    /*This sets the width*/
+  margin: 0 auto;
+}
+
+.card {
+  padding: 57px;
+  margin: 35px auto;
+  width: 344px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px, RGB(197, 203, 198);
+  box-shadow: 1px 2px 42px RGB(197, 203, 198);
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#my-photo {
+  border-radius: 50%;
+  box-shadow: 3px 1px 5px;
+}
+
+/*Media queries*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+
+  }
+  .card {
+    width: 344px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .card {
+   /* width: 344px;*/
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .card {
+    /*width: 344px;*/
+    margin: 0 auto;
+  }
+}
